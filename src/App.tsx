@@ -33,6 +33,7 @@ export default function App() {
         return () => window.removeEventListener('mousemove', handleMouseMove);
     }, []);
 
+    // Main application layout with sidebar, canvas, and overlays
     return (
         <div className="app-container">
             <Toolbar />
